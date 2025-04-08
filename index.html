@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="my portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+ 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+
+    <nav class="navbar">
+      <ul class="navbar-lists">
+        <li><a class="navbar-link home-link" href="#"><i class="fas fa-home"></i>Home</a></li>
+        <li><a class="navbar-link about-link" href="/about.html"><i class="fas fa-info-circle"></i>About</a></li>
+        <li><a class="navbar-link service-link" href="/service.html"><i class="fas fa-briefcase"></i>Services</a></li>
+        <li><a class="navbar-link portfolio-link" href="#portfolio-section"><i class="fas fa-user-tie"></i>Portfolio</a></li>
+        <li>
+          <a class="navbar-link" href="/contact.html" target="_blank"><i class="fas fa-phone-alt"></i>Contact</a>
+        </li>
+      </ul>
+      
+    </nav>
+
+    <div class="mobile-navbar-btn">
+      <ion-icon class="mobile-nav-icon" name="menu-outline" class="mobile-nav-icon"></ion-icon>
+
+      <ion-icon class="mobile-nav-icon" name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div>
+    <button class="custom-btn">Get Started</button>
+  </header>
+
+  <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+  <main>
+    <section class="section-hero section">
+      <div class="container grid grid-two-col">
+        <div class="section-hero-data">
+          <p class="hero-top-data">this is me</p>
+          <h1 class="hero-heading">Ashutosh Pathak</h1>
+          <p class="hero-para">
+            Hi, I’m Ashutosh Pathak, a passionate web developer, content writer, and logo designer. I create
+            user-friendly websites, craft engaging content, and design unique logos that help brands stand out. With a
+            blend of creativity and technical skills, I turn ideas into impactful digital experiences. Let’s collaborate
+            to bring your vision to life!
+          </p>
+          <div>
+            <a href="#" target="_blank" class="btn hireme-btn">Hire Me</a>
+          </div>
+        </div>
+
+        <div class="section-hero-image">
+          <img src="images/ashu.jpg" alt="hero image" class="hero-img" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================== 
+           Bio Data Section Start  
+    ========================================  -->
+  <section class="section-biodata section">
+    <div class="container grid grid-two-col">
+      <div class="bio-image">
+        <img src="images/biodata.jpg" alt="bio data image" />
+      </div>
+      <div class="bio-data">
+        <h2 class="common-heading">my bio-data</h2>
+        <p>
+          Ashutosh Pathak<br>
+          BCA Graduate (86%), VNSGU University<br>
+          Location: Vapi
+        </p>
+        <br />
+        <p>
+          I am a web developer who enjoys creating simple and effective digital solutions. My strengths are
+          problem-solving, being organized, and working well with others. I sometimes focus too much on small details,
+          but it helps me improve my work. In my free time, I like writing, designing logos, and learning about new
+          technology.
+        </p>
+
+        <div class="bio-data-stats">
+          <div class="bio-stats">
+            <h3>Design</h3>
+            <div class="bio-progress-bar">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>HTML</h3>
+            <div class="bio-progress-bar bio-progress-2">
+              <span>99%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>CSS</h3>
+            <div class="bio-progress-bar bio-progress-3">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>JavaScript</h3>
+            <div class="bio-progress-bar bio-progress-4">
+              <span>85%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>php+Mongodb</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>70%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>php+mysql</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bio-data-btn">
+          <a href="./resume.pdf" class="btn" download>
+            Downlaod CV </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+        Portfolio works Section Start  
+    ========================================  -->
+  <section class="section-portfolio section " id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading">Latest works</h2>
+      <p>
+        "Currently, I'm diving into content creation on Instagram and YouTube, sharing engaging insights and visuals.
+        Alongside, I’m learning Flutter to enhance my skills in website development, bringing fresh and dynamic
+        interfaces to life."<br>
+        <br>
+      </p>
+    </div>
+
+    <div class="p-btns">
+      <button class="btn p-btn" data-btn-num="1">Websites </button>
+      <button class="btn p-btn" data-btn-num="2">Youtube contents </button>
+      <button class="btn p-btn" data-btn-num="3">Business card </button>
+      <button class="btn p-btn" data-btn-num="1">Logo </button>
+      <button class="btn p-btn" data-btn-num="2"> Contents Written </button>
+    </div>
+    
+    
+    
+    <div class="container grid grid-three-col portfolio-images">
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="http://charcounter." target="_blank" class="common-heading">Project 1</a>
+        </div>
+      </div>
+
+      <div class="img-ovelay p-btn--3">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="https://www./" target="_blank" class="common-heading">Project 2</a>
+        </div>
+      </div>
+
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/3.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--1 p-btn--2">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--2">
+        <img src="images/folio/5.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+  <section class="section-services section ">
+    <div class="container">
+      <h2 class="common-heading">Service Offers</h2>
+      <p>
+        "I offer services in web development, web design, logo creation, and content writing. I also design professional
+        business cards, helping to create a strong and unique brand identity."
+      </p>
+    </div>
+    <!-- services offers card  -->
+    <div class="container grid grid-three-col">
+      <div class="service-box">
+
+        <ion-icon class="service-icon" name="logo-web-component"></ion-icon>
+        <h3>web Design</h3>
+        <p>
+          "Design isn't just about how it looks; it's about how it works. We don't create beautiful websites by chance,
+          but by daring to turn bold ideas into functional realities."
+        </p>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="logo-react" class="service-icon"></ion-icon>
+        <h3>web development</h3>
+        <p>
+          "Building a website isn't about the complexity of the code, it's about the courage to bring ideas to life and
+          turn challenges into solutions."
+        </p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon class="service-icon" name="logo-apple-appstore"></ion-icon>
+        <h3>Logo creator</h3>
+        <p>
+          "Creating a logo isn't just about design; it's about daring to give identity to ideas. When we dare to be
+          bold, simplicity becomes impactful."
+        </p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon class="service-icon" name="create-outline"></ion-icon>
+        <h3>Content writter</h3>
+        <p>
+          "Words aren't hard to find; it's the courage to craft them that makes the difference. When we dare to write,
+          we give life to ideas that shape the world."
+        </p>
+      </div>
+      <div class="service-box">
+        <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+        <h3>Content creator</h3>
+        <p>
+          "Creativity doesn't come from waiting for the perfect idea; it comes from daring to create and letting the
+          ideas flow."
+        </p>
+      </div>
+      <div class="service-box">
+
+        <ion-icon class="service-icon" name="card-outline"></ion-icon>
+        <h3>Business card designer</h3>
+        <p>
+          "Great designs don't just happen; they are crafted by daring to imagine the impossible and turning it into
+          reality."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our Resume Section Start  
+    ========================================  -->
+  <section class="section-resume section ">
+    <div class="container grid grid-two-col">
+      <!-- resume left side  -->
+      <div class="resume-img">
+        <img src="images/resume.jpg" alt="my resume pic" data-src="images/resume.jpg" loading="lazy" class="lazy-img" />
+      </div>
+
+      <!-- resume right side  -->
+      <div class="resume-data">
+        <h2 class="common-heading">resume</h2>
+        <!-- Education section  -->
+        <div class="resume-data-bottom-subsection">
+          <p class="resume-para">Education</p>
+
+
+
+          <!-- college  -->
+          <div class="resume-data-subsection ">
+            <div class="resume-data-left">
+              <h3>Bachelor in Computer Application</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Rofel College, Inc.
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> vapi, Gujarat
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> Bachelor </p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>May 2021 - 2024 </span>
+              </p>
+            </div>
+          </div>
+          <!-- 12th  -->
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>Higher Secondary Education </h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Technical Training Institute, Inc.
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Daman, Daman and Diu
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> Intermediate</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>May 2019 - 2021 </span>
+              </p>
+            </div>
+          </div>
+          <!-- end  -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+  <section class="section section-freelancer ">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>I am <span> available </span> for freelancing</h2>
+      <p>“Bringing innovative ideas to life with punctuality and flair—your vision, delivered on time.” </p>
+      <a href="/contact.html" class="btn"> HIRE ME </a>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our  Cotnact Us Section   
+    ========================================  -->
+
+  <section class="section section-contact ">
+    <div class="container">
+      <h2 class="common-heading">contact ME</h2>
+    </div>
+
+    <div class="section-contact-main contact-container">
+      <form action="https://ashuxv03@gmail.com" method="POST">
+        <div class=" grid grid-two-col">
+          <input type="text" name="username" id="" required placeholder="Name">
+          <input type="email" name="email" required placeholder="Email" autocomplete="false">
+        </div>
+        <div>
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <div>
+          <textarea name="message" id="" placeholder="Message"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="send message" class="btn">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+  <footer class="section section-footer ">
+    <div class="container grid grid-four-col">
+      <div class="f-about">
+        <h3>About</h3>
+        <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your
+          convenience. Hope you like it.</p>
+      </div>
+
+      <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a></li>
+
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a></li>
+        </ul>
+      </div>
+
+      <div class="f-services">
+        <h3>Services</h3>
+        <ul>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web design/redesign</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web development</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">content writting</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Business card design</a></li>
+
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Youtube vedios/shorts creation</a></li>
+        </ul>
+      </div>
+
+      <div class="f-address">
+        <h3>Have a Questions?</h3>
+        <address>
+          <div>
+            <p> <span><ion-icon name="location-outline"></ion-icon></span> Daman, India </p>
+          </div>
+
+          <div>
+            <p> <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+9574467335"> +91 9574467335 </a>
+            </p>
+          </div>
+
+          <div>
+            <p> <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:ashuxv03@gmail.com">
+                ashuxv03@gmail.com </a> </p>
+          </div>
+        </address>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="f-social-icons">
+        <a href="https://www.instagram.com/ashutoshpathak_07/" target="_blank">
+          <ion-icon class="icons" name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.facebook.com/ashutoshpathak_07/" target="_blank">
+          <ion-icon class="icons" name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/@lazyCodder-c9o" target="_blank">
+          <ion-icon class="icons" name="logo-youtube"></ion-icon>
+        </a>
+      </div>
+
+      <div class="f-credits">
+        <p>Copyright ©2024 All rights reserved </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
